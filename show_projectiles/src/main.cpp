@@ -67,7 +67,7 @@ int main() {
     enabling_cheat = false;
 
     printf("||=======================================================||\n");
-    printf("||          cheat for hng version 142821 QQ              ||\n");
+    printf("||          cheat for hng version 142953 QQ              ||\n");
     printf("||                 show projectiles                      ||\n");
     printf("|| made by: lava                                         ||\n");
     printf("||=======================================================||\n");
