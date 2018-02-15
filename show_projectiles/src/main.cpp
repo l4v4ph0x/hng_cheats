@@ -18,9 +18,9 @@
 #include <stdio.h>
 #include <TlHelp32.h>
 
-const unsigned long OFFSET_TERMINAL = 0x5BFE0;
-const unsigned long OFFSET_SHOW_PROJECTILES = 0x10C;
-const unsigned long OFFSET_CLEAR_ALL_DEBUG = 0x378;
+const unsigned long OFFSET_TERMINAL = 0x5C0D0;
+const unsigned long OFFSET_SHOW_PROJECTILES = 0x114;
+const unsigned long OFFSET_CLEAR_ALL_DEBUG = 0x374;
 
 unsigned long get_proc(const char *name) {
     void *snapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
